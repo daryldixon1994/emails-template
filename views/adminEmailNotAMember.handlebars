@@ -1,0 +1,110 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>EXPRESS JS WORKSHOP</title>
+        <link
+            href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+            rel="stylesheet"
+            integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+            crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="public/css/style.css" />
+    </head>
+    <body>
+        <div class="container">
+            <nav>
+                <img src="../public/logoWhiteFinal.png" width="290px" />
+            </nav>
+            <main>
+                <h1>Reservation at Workshop</h1>
+                <div class="intro">
+                    <h4>Hello
+                        <span style="font-weight: bold;">
+                            dynaskills® Team,
+                        </span></h4>
+                    <h4>New reservation has been created successully.</h4>
+                </div>
+                <div class="data">
+                    <div class="data-body">
+                        <div class="left">
+                            <h2>Candidate Details</h2>
+                            <h5>Full Name :
+                                <span
+                                    style="font-weight: lighter;"
+                                >{{fullName}}firstName lastName</span>
+                            </h5>
+                            <h5>Email :
+                                <span
+                                    style="font-weight: lighter;"
+                                >User@gmail.com {{email}}</span>
+                            </h5>
+                            <h5>Phone :
+                                <span style="font-weight: lighter;">+41 12 34 56
+                                    78
+                                    {{phone}}</span>
+                            </h5>
+                            <h5>Address :
+                                <span style="font-weight: lighter;">Martin super
+                                    {{address}}</span>
+                            </h5>
+                            <h5>Postal code :
+                                <span style="font-weight: lighter;">8000
+                                    {{postalCode}}</span>
+                            </h5>
+                            <h5>City :
+                                <span style="font-weight: lighter;">Zurich
+                                    {{city}}</span>
+                            </h5>
+                            <h5>Country :
+                                <span style="font-weight: lighter;">Switzerland
+                                    {{country}}</span>
+                            </h5>
+                        </div>
+                        <div class="right">
+                            <h2>Reservation Details</h2>
+                            <h5>Date :
+                                <span
+                                    style="font-weight: lighter;"
+                                >{{savedDate}}Wednesday, 08.02</span>
+                            </h5>
+                            <h5>Hour :
+                                <span
+                                    style="font-weight: lighter;"
+                                >{{savedHour}}
+                                    Afternoon, 13.40-16.20
+                                </span>
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="needs">
+                    <h2>Specific need :</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Ipsum laborum, reprehenderit quae quod ducimus neque.
+                        Officiis aliquam, voluptate adipisci deserunt voluptas
+                        minima rerum veritatis modi suscipit repellendus neque
+                        corrupti ipsa dolores cumque voluptatem nostrum enim
+                        exercitationem pariatur voluptatum! Laboriosam,
+                        deleniti. Delectus eum minus earum commodi distinctio
+                        praesentium odit sapiente ad?
+                        {{needs}}
+                    </p>
+                </div>
+                <div class="regards">
+                    <h4>Best regards,</h4>
+                    <h2>dynaskills® Team</h2>
+                </div>
+            </main>
+            <footer>
+                <h3>dynaskills LLC</h3>
+                <div>
+                    <img src="../public/logoWhiteFinal.png" width="290px" />
+                </div>
+            </footer>
+            <p class="copyright">Copyright© 2023 All rights reserved to
+                dynaskills LLC</p>
+        </div>
+    </body>
+</html>

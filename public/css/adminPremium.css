@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
+* {
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0;
+}
+
+.container {
+    max-width: 50%;
+    min-height: 600px;
+    border: 2px black solid;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+}
+nav {
+    width: 100%;
+    min-height: 100px;
+    background-color: #011e77;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 0px;
+}
+footer {
+    width: 100%;
+    min-height: 100px;
+    background-color: #011e77;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+h2,
+h1 {
+    color: #011e77;
+    font-size: 1.15em;
+    font-weight: bold;
+}
+h1 {
+    /* margin: 55px 55px 0 55px; */
+    text-align: center;
+     color: #011e77;
+    font-size: 1.75em;
+    font-weight: bold;
+}
+main {
+    width: 82%;
+    margin: auto;
+    padding: 35px;
+    margin-bottom: 40px;
+    color: #011e77;
+}
+.intro {
+    margin: 50px 0px;
+}
+h4 {
+    font-weight: lighter;
+}
+.data {
+    margin-bottom: 2.5rem;
+}
+.data-body {
+    display: flex;
+    justify-content: space-between;
+}
+/* .left {
+    border: 2px blue solid;
+}
+.right {
+    border: 2px green solid;
+} */
+.titles {
+    display: flex;
+    justify-content: space-between;
+}
+h5 {
+    margin-bottom: 0.5rem;
+    margin-top: 0;
+}
+h2 {
+    margin-bottom: 30px;
+}
+.copyright {
+    text-align: center;
+    color: #011e77;
+}
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+}
+.angestelt {
+    margin-bottom: 0;
+}
+.team {
+    margin-top: 0;
+}
+.best {
+    margin-top: 40px;
+    margin-bottom: 0;
+}
