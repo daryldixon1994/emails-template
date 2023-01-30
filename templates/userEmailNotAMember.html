@@ -1,0 +1,456 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head style="box-sizing: border-box; font-family: Inter, sans-serif">
+    <meta
+      charset="UTF-8"
+      style="box-sizing: border-box; font-family: Inter, sans-serif"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1"
+      style="box-sizing: border-box; font-family: Inter, sans-serif"
+    />
+    <meta
+      http-equiv="X-UA-Compatible"
+      content="ie=edge"
+      style="box-sizing: border-box; font-family: Inter, sans-serif"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <title style="box-sizing: border-box; font-family: Inter, sans-serif">
+      EXPRESS JS WORKSHOP
+    </title>
+  </head>
+  <body
+    style="
+      box-sizing: border-box;
+      font-family: 'Inter', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      padding: 0;
+    "
+  >
+    <style
+      style="box-sizing: border-box; font-family: Inter, sans-serif"
+    ></style>
+    <div
+      class="container"
+      style="
+        box-sizing: border-box;
+        font-family: Inter, sans-serif;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 50%;
+        min-height: 600px;
+        padding: 0;
+      "
+    >
+      <div
+        style="
+          align-items: center;
+          background-color: #011e77;
+          box-sizing: border-box;
+          font-family: Inter, sans-serif;
+          min-height: 100px;
+          padding: 15px 10px;
+          width: 100%;
+        "
+      >
+        <img
+          src="https://res.cloudinary.com/dc8u6ydtu/image/upload/v1675031636/uploads/krjhhdrejapnkqljiauy.png"
+          width="290px"
+          style="box-sizing: border-box; font-family: Inter, sans-serif"
+        />
+      </div>
+      <main
+        style="
+          box-sizing: border-box;
+          color: #011e77;
+          font-family: Inter, sans-serif;
+          margin: auto;
+          padding: 35px;
+          width: 82%;
+        "
+      >
+        <h1
+          style="
+            box-sizing: border-box;
+            color: #011e77;
+            font-family: Inter, sans-serif;
+            font-size: 1.15em;
+            font-weight: 700;
+            text-align: center;
+          "
+        >
+          Reservation at Workshop
+        </h1>
+        <div
+          class="intro"
+          style="
+            box-sizing: border-box;
+            font-family: Inter, sans-serif;
+            margin: 50px 0;
+          "
+        >
+          <h4
+            style="
+              box-sizing: border-box;
+              font-family: Inter, sans-serif;
+              font-weight: 700;
+            "
+          >
+            Hello
+            <span
+              style="
+                box-sizing: border-box;
+                font-family: Inter, sans-serif;
+                font-weight: 700;
+              "
+            >
+              {{fullName}}</span
+            >
+          </h4>
+          <h4
+            style="
+              box-sizing: border-box;
+              font-family: Inter, sans-serif;
+              font-weight: 700;
+            "
+          >
+            New reservation has been created successully.
+          </h4>
+        </div>
+        <div
+          class="data"
+          style="
+            box-sizing: border-box;
+            font-family: Inter, sans-serif;
+            margin-bottom: 2.5rem;
+          "
+        >
+          <div
+            class="data-body"
+            style="
+              box-sizing: border-box;
+              font-family: Inter, sans-serif;
+              justify-content: space-between;
+            "
+          >
+            <div
+              class="left"
+              style="box-sizing: border-box; font-family: Inter, sans-serif"
+            >
+              <h2
+                style="
+                  box-sizing: border-box;
+                  color: #011e77;
+                  font-family: Inter, sans-serif;
+                  font-size: 1.15em;
+                  font-weight: 700;
+                  margin-bottom: 30px;
+                "
+              >
+                Candidate Details
+              </h2>
+              <h5
+                style="
+                  box-sizing: border-box;
+                  color: #011e77;
+                  font-family: Inter, sans-serif;
+                  font-size: 1.15em;
+                  font-weight: 700;
+                  margin-bottom: 0.5rem;
+                  margin-top: 0;
+                "
+              >
+                Full Name :
+                <span
+                  style="
+                    box-sizing: border-box;
+                    font-family: Inter, sans-serif;
+                    font-weight: lighter;
+                  "
+                  >{{fullName}}</span
+                >
+              </h5>
+              <h5
+                style="
+                  box-sizing: border-box;
+                  color: #011e77;
+                  font-family: Inter, sans-serif;
+                  font-size: 1.15em;
+                  font-weight: 700;
+                  margin-bottom: 0.5rem;
+                  margin-top: 0;
+                "
+              >
+                Email :
+                <span
+                  style="
+                    box-sizing: border-box;
+                    font-family: Inter, sans-serif;
+                    font-weight: lighter;
+                  "
+                  >{{email}}</span
+                >
+              </h5>
+              <h5
+                style="
+                  box-sizing: border-box;
+                  color: #011e77;
+                  font-family: Inter, sans-serif;
+                  font-size: 1.15em;
+                  font-weight: 700;
+                  margin-bottom: 0.5rem;
+                  margin-top: 0;
+                "
+              >
+                Phone :
+                <span
+                  style="
+                    box-sizing: border-box;
+                    font-family: Inter, sans-serif;
+                    font-weight: lighter;
+                  "
+                >
+                  {{phone}}</span
+                >
+              </h5>
+              <h5
+                style="
+                  box-sizing: border-box;
+                  color: #011e77;
+                  font-family: Inter, sans-serif;
+                  font-size: 1.15em;
+                  font-weight: 700;
+                  margin-bottom: 0.5rem;
+                  margin-top: 0;
+                "
+              >
+                Address :
+                <span
+                  style="
+                    box-sizing: border-box;
+                    font-family: Inter, sans-serif;
+                    font-weight: lighter;
+                  "
+                >
+                  {{address}}</span
+                >
+              </h5>
+              <h5
+                style="
+                  box-sizing: border-box;
+                  color: #011e77;
+                  font-family: Inter, sans-serif;
+                  font-size: 1.15em;
+                  font-weight: 700;
+                  margin-bottom: 0.5rem;
+                  margin-top: 0;
+                "
+              >
+                Postal code :
+                <span
+                  style="
+                    box-sizing: border-box;
+                    font-family: Inter, sans-serif;
+                    font-weight: lighter;
+                  "
+                >
+                  {{postalCode}}</span
+                >
+              </h5>
+              <h5
+                style="
+                  box-sizing: border-box;
+                  color: #011e77;
+                  font-family: Inter, sans-serif;
+                  font-size: 1.15em;
+                  font-weight: 700;
+                  margin-bottom: 0.5rem;
+                  margin-top: 0;
+                "
+              >
+                City :
+                <span
+                  style="
+                    box-sizing: border-box;
+                    font-family: Inter, sans-serif;
+                    font-weight: lighter;
+                  "
+                >
+                  {{city}}</span
+                >
+              </h5>
+              <h5
+                style="
+                  box-sizing: border-box;
+                  color: #011e77;
+                  font-family: Inter, sans-serif;
+                  font-size: 1.15em;
+                  font-weight: 700;
+                  margin-bottom: 0.5rem;
+                  margin-top: 0;
+                "
+              >
+                Country :
+                <span
+                  style="
+                    box-sizing: border-box;
+                    font-family: Inter, sans-serif;
+                    font-weight: lighter;
+                  "
+                >
+                  {{country}}</span
+                >
+              </h5>
+            </div>
+            <div
+              class="right"
+              style="box-sizing: border-box; font-family: Inter, sans-serif"
+            >
+              <h2
+                style="
+                  box-sizing: border-box;
+                  color: #011e77;
+                  font-family: Inter, sans-serif;
+                  font-size: 1.15em;
+                  font-weight: 700;
+                  margin-bottom: 30px;
+                "
+              >
+                Reservation Details
+              </h2>
+              <h5
+                style="
+                  box-sizing: border-box;
+                  color: #011e77;
+                  font-family: Inter, sans-serif;
+                  font-size: 1.15em;
+                  font-weight: 700;
+                  margin-bottom: 0.5rem;
+                  margin-top: 0;
+                "
+              >
+                Date :
+                <span
+                  style="
+                    box-sizing: border-box;
+                    font-family: Inter, sans-serif;
+                    font-weight: lighter;
+                  "
+                  >{{savedDate}}</span
+                >
+              </h5>
+              <h5
+                style="
+                  box-sizing: border-box;
+                  color: #011e77;
+                  font-family: Inter, sans-serif;
+                  font-size: 1.15em;
+                  font-weight: 700;
+                  margin-bottom: 0.5rem;
+                  margin-top: 0;
+                "
+              >
+                Hour :
+                <span
+                  style="
+                    box-sizing: border-box;
+                    font-family: Inter, sans-serif;
+                    font-weight: lighter;
+                  "
+                  >{{savedHour}}</span
+                >
+              </h5>
+            </div>
+          </div>
+        </div>
+        <div
+          class="needs"
+          style="box-sizing: border-box; font-family: Inter, sans-serif"
+        >
+          <h2
+            style="
+              box-sizing: border-box;
+              color: #011e77;
+              font-family: Inter, sans-serif;
+              font-size: 1.15em;
+              font-weight: 700;
+              margin-bottom: 30px;
+            "
+          >
+            Specific need :
+          </h2>
+          <p style="box-sizing: border-box; font-family: Inter, sans-serif">
+            {{needs}}
+          </p>
+        </div>
+        <div
+          class="regards"
+          style="box-sizing: border-box; font-family: Inter, sans-serif"
+        >
+          <h4
+            style="
+              box-sizing: border-box;
+              font-family: Inter, sans-serif;
+              font-weight: lighter;
+            "
+          >
+            Best regards,
+          </h4>
+          <h2
+            style="
+              box-sizing: border-box;
+              color: #011e77;
+              font-family: Inter, sans-serif;
+              font-size: 1.15em;
+              font-weight: 700;
+              margin-bottom: 30px;
+            "
+          >
+            dynaskills® Team
+          </h2>
+        </div>
+      </main>
+      <footer
+        style="
+          align-items: center;
+          background-color: #011e77;
+          box-sizing: border-box;
+          color: #fff;
+          font-family: Inter, sans-serif;
+          justify-content: space-around;
+          min-height: 100px;
+          width: 100%;
+          padding: 25px 0px;
+        "
+      >
+        <div style="box-sizing: border-box; font-family: Inter, sans-serif">
+          <img
+            src="https://res.cloudinary.com/dc8u6ydtu/image/upload/v1675031636/uploads/krjhhdrejapnkqljiauy.png"
+            width="290px"
+            style="box-sizing: border-box; font-family: Inter, sans-serif"
+          />
+        </div>
+        <h3 style="box-sizing: border-box; font-family: Inter, sans-serif">
+          dynaskills LLC
+        </h3>
+      </footer>
+      <p
+        class="copyright"
+        style="
+          box-sizing: border-box;
+          color: #011e77;
+          font-family: Inter, sans-serif;
+          text-align: center;
+        "
+      >
+        Copyright© 2023 All rights reserved to dynaskills LLC
+      </p>
+    </div>
+  </body>
+</html>
